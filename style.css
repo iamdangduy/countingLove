@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 400px;
+  height: 600px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.content__footer {
+  height: 70px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content__main {
+  height: calc(100% - 70px);
+  background-color: bisque;
+  display: flex;
+}
+
+button {
+  height: 30px;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+.content__main--left,
+.content__main--right {
+  width: 50%;
+  height: 100%;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.number-love,
+.number-sad {
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title-love,
+.title-sad {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
